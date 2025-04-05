@@ -2,6 +2,7 @@ public class HighResImage implements Image{
     private String name;
     public HighResImage(String name){
         this.name = name;
+        loadImage();
     }
     private void loadImage(){
         System.out.println("Loading full-resolution images: " + name);
